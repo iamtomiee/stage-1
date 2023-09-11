@@ -14,7 +14,7 @@ app.get('/api', (req, res) => {
 
   // Get the current day and UTC time
   const currentDay = new Date().toLocaleDateString('en-US', { weekday: 'long' });
-  const utcTime = new Date().toISOString();
+  const utcTime = new Date().toISOString().replace(/\.\d{3}Z$/,'Z');
 
   // Construct the JSON response with the specified format
   const jsonResponse = {
