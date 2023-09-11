@@ -3,7 +3,7 @@ const app = express();
 const port = 3000; // Choose the port you want to run your server on
 
 // Define your GET endpoint
-app.get('/endpoint', (req, res) => {
+app.get('/api', (req, res) => {
   // Extract query parameters slack_name and track
   const { slack_name, track } = req.query;
 
