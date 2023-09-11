@@ -22,8 +22,8 @@ app.get('/api', (req, res) => {
     current_day: currentDay,
     utc_time: utcTime,
     track,
-    github_file_url: 'https://github.com/iamtomiee/repo/blob/main/file_name.ext',
-    github_repo_url: 'https://github.com/iamtomiee/repo',
+    github_file_url: 'https://github.com/iamtomiee/stage-1/blob/main/index.js',
+    github_repo_url: 'https://github.com/iamtomiee/stage-1',
     status_code: 200,
   };
 
